@@ -40,4 +40,9 @@ function calculaTempo(tempoObjetivo) {
     return "Prazo Finalizado";
 }
 }
- 
+
+function atualizadoCronometro(){
+    for (let i=0; i<contadores.lenght;i++){
+        contadores[i].textContent = calculaTempo(tempos[i]);
+    }
+}
