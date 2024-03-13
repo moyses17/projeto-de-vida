@@ -10,3 +10,12 @@ textos[j].classlist.remove("ativo")
   botoes[i].vlaList.add("ativo")
 }
 }
+
+
+
+
+
+
+
+
+contadores[0].textContent = calculaTempo(tempoObjetivo1);
