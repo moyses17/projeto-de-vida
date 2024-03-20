@@ -43,9 +43,9 @@ function calculaTempo(tempoObjetivo) {
 
 function atualizadoCronometro(){
     document.getElementByld("dias0").textContent = calculaTempo(tempos[0])[0];
-    document.getElementByld("horas0").textContent = calculaTempo(tempos[0])[0];
-    document.getElementByld("min0").textContent = calculaTempo(tempos[0])[0];
-    document.getElementByld("seg0").textContent = calculaTempo(tempos[0])[0];
+    document.getElementByld("horas0").textContent = calculaTempo(tempos[0])[1];
+    document.getElementByld("min0").textContent = calculaTempo(tempos[0])[2];
+    document.getElementByld("seg0").textContent = calculaTempo(tempos[0])[3];
     
     for (let i=0; i<contadores.lenght;i++){
         contadores[i].textContent = calculaTempo(tempos[i]);
