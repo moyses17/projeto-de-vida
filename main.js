@@ -46,3 +46,11 @@ function atualizadoCronometro(){
         contadores[i].textContent = calculaTempo(tempos[i]);
     }
 }
+
+
+
+
+
+
+
+//comecaCronometro();
