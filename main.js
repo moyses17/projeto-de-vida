@@ -24,7 +24,6 @@ const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
 
 contadores[0].textContent = calculaTempo9tempoObjetivo1);
 
-
 function calculaTempo(tempoObjetivo) {
   let tempoAtual = new Date();
   let tempoFinal = tempoObjetivo - tempoAtual;
@@ -48,7 +47,7 @@ function atualizadoCronometro(){
     document.getElementByld("seg0").textContent = calculaTempo(tempos[0])[3];
     
     for (let i=0; i<contadores.lenght;i++){
-        contadores[i].textContent = calculaTempo(tempos[i]);
+        //contadores[i].textContent = calculaTempo(tempos[i]);
     }
 }
 
